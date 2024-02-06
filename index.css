@@ -1,0 +1,42 @@
+#toolbar {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eee;
+}
+.carriage {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-image: url(/ima/002.png);
+  cursor: move;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+}
+
+#train {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  min-height: 100px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+#train .carriage:first-child {
+  background-image: url(/ima/001.png);
+  background-size: cover;
+}
+#train .carriage:last-child {
+  background-image: url(/ima/003.png);
+  background-size: cover;
+}
+
+#count {
+  font-size: 18px;
+  font-weight: bold;
+}
